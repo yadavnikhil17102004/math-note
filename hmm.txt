@@ -1,0 +1,92 @@
+PS C:\Users\lenovo V-330\Desktop\VS code\math note> npm create vite@latest
+Need to install the following packages:
+create-vite@5.5.2
+Ok to proceed? (y) y
+√ Project name: ... cal-front
+√ Select a framework: » Vue
+× Select a variant: » TypeScript
+✖ Operation cancelled
+PS C:\Users\lenovo V-330\Desktop\VS code\math note> npm create vite@latest
+√ Project name: ... cal-front
+√ Select a framework: » React
+√ Select a variant: » TypeScript
+
+Scaffolding project in C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front...
+
+Done. Now run:
+
+  cd cal-front
+  npm install
+  npm run dev
+
+PS C:\Users\lenovo V-330\Desktop\VS code\math note> cd .\cal-front\
+PS C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front> npm install -D tailwindcss postcss autoprefixer
+
+added 271 packages, and audited 272 packages in 33s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front> code .           
+PS C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front> 
+
+PS C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front> npx tailwindcss init -p
+
+Created Tailwind CSS config file: tailwind.config.js
+Created PostCSS config file: postcss.config.js
+PS C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front> 
+
+PS C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front> npx shadcn@latest init
+Need to install the following packages:
+shadcn@2.0.7
+Ok to proceed? (y) y
+✔ Preflight checks.
+✔ Verifying framework. Found Vite.
+✔ Validating Tailwind CSS.
+✔ Validating import alias.
+√ Which style would you like to use? » Default
+√ Which color would you like to use as the base color? » Neutral
+√ Would you like to use CSS variables for theming? ... no / yes
+✔ Writing components.json.
+✔ Checking registry.
+✔ Updating tailwind.config.js
+✔ Updating src\index.css
+✔ Installing dependencies.
+✔ Created 1 file:
+  - src\lib\utils.ts
+
+Success! Project initialization completed.
+You may now add components.
+
+PS C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front> npm i @types/node                          
+
+added 2 packages, and audited 280 packages in 4s
+
+67 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front> npx shadcn@latest add button
+✔ Checking registry.
+✔ Installing dependencies.
+✔ Created 1 file:
+  - src\components\ui\button.tsx
+
+PS C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front> npm i react-router-dom
+
+added 3 packages, and audited 285 packages in 3s
+
+67 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\lenovo V-330\Desktop\VS code\math note\cal-front> npm install @mantine/core @mantine/hooks 
+
+added 25 packages, and audited 310 packages in 26s
+
+68 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
